@@ -1,0 +1,3 @@
+SELECT name FROM (SELECT * FROM EMPLOYEE WHERE months < 10) AS temp
+WHERE salary>2000 
+ORDER BY employee_id;
